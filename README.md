@@ -83,7 +83,6 @@ HDT10/
 - **Java 11+**: Lenguaje principal
 - **JUnit 5**: Framework de pruebas unitarias
 - **Git**: Control de versiones
-- **Maven/Gradle**: Gestión de dependencias (opcional)
 
 ## 📋 Prerrequisitos
 
@@ -91,28 +90,6 @@ HDT10/
 - IDE compatible con Java (IntelliJ IDEA, Eclipse, VS Code)
 - JUnit 5 para ejecutar las pruebas
 
-## 🚀 Instalación y Ejecución
-
-### 1. Clonar el Repositorio
-```bash
-git clone https://github.com/usuario/HDT10.git
-cd HDT10
-```
-
-### 2. Compilar el Proyecto
-```bash
-javac -cp ".:junit-platform-console-standalone-1.8.2.jar" *.java
-```
-
-### 3. Ejecutar el Programa Principal
-```bash
-java ProgramaPrincipal
-```
-
-### 4. Ejecutar Pruebas Unitarias
-```bash
-java -jar junit-platform-console-standalone-1.8.2.jar --class-path . --scan-class-path
-```
 
 ## 📊 Formato del Archivo de Datos
 
