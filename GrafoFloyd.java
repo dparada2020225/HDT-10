@@ -249,9 +249,9 @@ class ProgramaPrincipal {
     public static void main(String[] args) {
         try {
             System.out.println("=== Sistema de Optimización Logística ===");
-            System.out.println("Cargando grafo desde archivo logistica.txt...");
+            System.out.println("Cargando grafo desde archivo guategrafo.txt...");
             
-            grafo.cargarDesdeArchivo("logistica.txt");
+            grafo.cargarDesdeArchivo("guategrafo.txt");
             System.out.println("Grafo cargado exitosamente.");
             
             // Aplicar algoritmo de Floyd con clima normal
