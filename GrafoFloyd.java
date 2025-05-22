@@ -341,7 +341,7 @@ class ProgramaPrincipal {
         for (int i = 0; i < camino.size(); i++) {
             System.out.print(camino.get(i));
             if (i < camino.size() - 1) {
-                System.out.print(" → ");
+                System.out.print(" -> ");
             }
         }
         System.out.println();
