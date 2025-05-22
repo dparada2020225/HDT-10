@@ -1,0 +1,4 @@
+CiudadA CiudadB 10 15 20 50
+CiudadB CiudadC 5 8 12 25
+CiudadA CiudadC 20 25 35 80
+CiudadC CiudadA 18 22 30 75
